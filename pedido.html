@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <title>Inicio</title>
+</head>
+<body>
+    <div style="margin: 24px;">
+        <nav class="navbar navbar-inverse navbar-stick-static-top">
+            <div class="container">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="menu.html">Menu</a>
+                    </li>
+                    <li>
+                        <li class="active">
+                        <a href="pedido.html">Pedido</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <h1 style="text-align: left;">PEDIDO</h1>
+    <br>
+
+    <form id="pedido">
+        <p>Nombre: <input type="text" id="nombre" name="nombre" size="30"></p>
+        <p>Apellido: <input type="text" id="apellido" name="apellido" size="38"></p>
+        <p>Telefono: <input type="text" id="telefono" name="telefono" size="20"></p>
+        <p>Direccion: <input type="text" id="direccion" name="direccion" size="40"></p>
+        <p>Colonia: <input type="text" id="colonia" name="colonia" size="30"></p>
+        <hr>
+
+        <select name="menu" id="menu">
+        
+            <optgroup label="Tortas">
+                <option value="hamburguesaconqueso">HamburguesaSencilla</option>
+                <option value="hamburguesacontocino">HamburguesaConTocino</option>
+                <option value="hamburguesaconqueso">HamburguesaConQueso</option>
+            </optgroup>
+            <optgroup label="Tacos">
+                <option value="tacosfrijoles">TacosDeFrijoles</option>
+                <option value="tacosdechorizo">TacosDeChorizo</option>
+                <option value="sincronizadagrande">SincronizadaGrande</option>
+            </optgroup>
+        </select>
+
+
+        <title1>VERDURAS Y ARMAS:</title1><br>
+        OPCIONES:
+        <input type="checkbox" id="tomate" checked><label for="tomate">Tomate</label>
+        <input type="checkbox" id="cebolla" checked><label for="cebolla">Cebolla</label>
+        <input type="checkbox" id="lechuga" checked><label for="lechuga">Lechuga</label>
+        <input type="checkbox" id="pepinillo" checked><label for="pepinillo">Pepinillo</label>
+        <input type="checkbox" id="fusiles" checked><label for="fusiles">Fusiles</label>
+        <input type="checkbox" id="subfusiles" checked><label for="subfusiles">Subfusiles</label>
+        <input type="checkbox" id="escopetas" checked><label for="escopetas">Escopetas</label>
+        <input type="checkbox" id="granadas" checked><label for="granadas">Granadas</label></br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+
+    <script>
+        const form=document.getElementById("pedido");
+        form.addEventListener("submit",function (event){
+            event.preventDefault();
+            const formData=new FormData (form);
+            const orden={
+                 nombre:formData.get("nombre"),
+                 apellido:formData.get("apellido"),
+                 telefono:formData.get("telefono"),
+                 direccion:formData.get("direccion"),
+                 colonia:formData.get("colonia"),
+                 tomate:document.getElementById("tomate").checked ? "Si": "No",
+                 cebolla:document.getElementById("cebolla").checked ? "Si": "No",
+                 lechuga:document.getElementById("lechuga").checked ? "Si": "No",
+                 pepinillo:document.getElementById("pepinillo").checked ? "Si": "No",
+                 fusiles:document.getElementById("fusiles").checked ? "Si": "No",
+                 subfusiles:document.getElementById("subfusiles").checked ? "Si": "No",
+                 escopetas:document.getElementById("escopetas").checked ? "Si": "No",
+                 granadas:document.getElementById("granadas").checked ? "Si": "No"
+        };
+        localStorage.setItem("orden",JSON.stringify(orden));
+        window.location.href="pedidorealizado.html";
+        });
+             
+    </script>
+</body>
+</html>
