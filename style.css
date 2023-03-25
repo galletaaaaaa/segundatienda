@@ -1,0 +1,100 @@
+body {
+    background-color: lightcoral;
+    }
+    
+    h1{
+        color: black;
+    }
+    th{
+        background-color: gray;
+    }
+    table{
+        margin-left: 420px;
+        background-color: darkred;
+    }
+    img{
+    height: 100px;
+    width: 100px;
+    }
+    titulo1{
+        font-family: cursive;
+            font-size: 50px;
+            color: darkred;
+            text-align: center;                                       
+    }
+    .collage{
+    position: relative;
+    width:800px;
+    height: 600px;
+    background-color: #5f0138;
+    border-radius: 10px;
+    opacity: 0.9;
+    }
+    .imagen1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 200px;
+        z-index:1;
+        box-shadow:2px 2px 2px gray;
+    }
+    
+    .imagen2{
+        position: absolute;
+        top: 0;
+        left: 350px;
+        width: 200px;
+        height: 200px;
+        z-index:2;
+        box-shadow:2px 2px 2px khaki;
+    }
+    
+    .imagen3{
+        position: absolute;
+        top: 0;
+        left: 200px;
+        width: 200px;
+        height: 200px;
+        z-index:3;
+        box-shadow:2px 2px 2px aquamarine;
+    }
+    
+    .imagen4{
+        position: absolute;
+        top: 0;
+        left: 320px;
+        width: 200px;
+        height: 200px;
+        z-index:4;
+        box-shadow:2px 2px 2px darkgoldenrod;
+    }
+    
+    .imagen5{
+        position: absolute;
+        top: 0;
+        left: 250px;
+        width: 200px;
+        height: 200px;
+        z-index:5;
+        box-shadow:2px 2px 2px lightcoral;
+    }
+    
+    .imagen6{
+        position: absolute;
+        top: 0;
+        left: 100px;
+        width: 200px;
+        height: 200px;
+        z-index:6;
+        box-shadow:2px 2px 2px lightgreen;
+    }
+    .imagen7{
+        position: absolute;
+        top: 0;
+        left: 300px;
+        width: 200px;
+        height: 200px;
+        z-index:7;
+        box-shadow:2px 2px 2px lightseagreen;
+    }
