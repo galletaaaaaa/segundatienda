@@ -1,0 +1,188 @@
+{"menu":[
+
+    {
+        "id": 1,
+        "nombre": "Pizza",
+        "descripcion": "Pepperoni, Queso, Masa",
+        "precio": "200",
+        "imagen": "img/pizza.jpg"
+    },
+
+    {
+        "id": 2,
+        "nombre": "Enchiladas",
+        "descripcion": "Salsa Roja, Queso, Frijoles, Jamon",
+        "precio": "150",
+        "imagen": "img/enchiladas.jpg"
+    },
+
+    {
+        "id": 3,
+        "nombre": "Tamales",
+        "descripcion": "Pollo, Frijoles, Lechuga, Guacamole",
+        "precio": "230",
+        "imagen": "img/tamales.jpg"
+    },
+
+    {
+        "id": 4,
+        "nombre": "Fusil Kalashnikova Soviético",
+        "descripcion": "30 Balas, Calibre 7.62mm, Peso Cargado 4.3Kg, Velocidad 715m/s",
+        "precio": "750",
+        "imagen": "img/ak.jpg"
+    },
+
+    {
+        "id": 5,
+        "nombre": "Subfusil Maschinenpistole40",
+        "descripcion": "32 Balas, Calibre 9mm, Peso Cargado 4.7Kg, Velocidad 381m/s",
+        "precio": "970",
+        "imagen": "img/mp.jpg"
+    },
+
+    {
+        "id": 6,
+        "nombre": "Pistola Luger",
+        "descripcion": "8 Balas, Calibre 7.65mm, Peso 870g, Velocidad 425m/s",
+        "precio": "1170",
+        "imagen": "img/luger.jpg"
+    }
+],
+ "complementos":[
+    {
+        "id": 7,
+        "nombre": "Salsa Verde",
+        "precio": "50",
+        "imagen": "img/.jpg"
+    },
+
+    {
+        "id": 8,
+        "nombre": "Salsa Roja",
+        "precio": "50",
+        "imagen": "img/.jpg"
+    },
+
+    {
+        "id": 9,
+        "nombre": "Frijoles con Chile",
+        "precio": "70",
+        "imagen": "img/.jpg"
+    },
+
+    {
+        "id": 10,
+        "nombre": "Supresor para Fusiles",
+        "precio": "250",
+        "imagen": "img/.jpg"
+    },
+
+    {
+        "id": 11,
+        "nombre": "Cargador extendido para Subfusiles",
+        "precio": "370",
+        "imagen": "img/.jpg"
+    },
+
+    {
+        "id": 12,
+        "nombre": "Culata Desplegable para Pistolas",
+        "precio": "430",
+        "imagen": "img/.jpg"
+    }
+],
+ "postres":[
+
+    {
+        "id": 13,
+        "nombre": "Pastel de Chocolate",
+        "descripcion": "Pequeño Pastel de Chocolate (Tres Leches)",
+        "precio": "70",
+        "imagen": "img/.jpg"
+    },
+
+    {
+        "id": 14,
+        "nombre": "Pastel de Fresa",
+        "descripcion": "Pequeño Pastel de Fresa (Tres Leches)",
+        "precio": "70",
+        "imagen": "img/.jpg"
+    },
+
+    {
+        "id": 15,
+        "nombre": "Pastel de Vainilla",
+        "descripcion": "Pequeño Pastel de Vainilla (Tres Leches)",
+        "precio": "70",
+        "imagen": "img/.jpg"
+    },
+
+    {
+        "id": 16,
+        "nombre": "Casco Alemán Stanhlhelm",
+        "descripcion": "Casco de Acero",
+        "precio": "550",
+        "imagen": "img/.jpg"
+    },
+
+    {
+        "id": 17,
+        "nombre": "Panzer VI Tiger",
+        "descripcion": "Altura de 3M, 2 Ametralladoras MG34, Es un Tiger nmms",
+        "precio": "1170",
+        "imagen": "img/.jpg"
+    },
+
+    {
+        "id": 18,
+        "nombre": "T-34",
+        "descripcion": "Altura de 2,45M, 2 Ametralladoras DT, Es un T-34 nmms",
+        "precio": "1170",
+        "imagen": "img/.jpg"
+    }
+],
+    "bebidas":[
+
+    {
+        "id": 19,
+        "nombre": "CocaCola",
+        "precio": "70",
+        "imagen": "img/.jpg"
+    },
+
+    {
+        "id": 20,
+        "nombre": "Sprite",
+        "precio": "70",
+        "imagen": "img/.jpg"
+    },
+
+    {
+        "id": 21,
+        "nombre": "Squirt",
+        "precio": "70",
+        "imagen": "img/.jpg"
+    },
+
+    {
+        "id": 22,
+        "nombre": "Fanta",
+        "precio": "70",
+        "imagen": "img/.jpg"
+    },
+
+    {
+        "id": 23,
+        "nombre": "ManzanitaSol",
+        "precio": "70",
+        "imagen": "img/.jpg"
+    },
+
+    {
+        "id": 24,
+        "nombre": "Awa",
+        "precio": "10",
+        "imagen": "img/.jpg"
+    }
+]
+}
