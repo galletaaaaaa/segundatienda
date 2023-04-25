@@ -13,88 +13,97 @@ body {
         background-color: darkred;
     }
     img{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     }
-    titulo1{
-        font-family: cursive;
+    xd1{
+        font-family: Verdana;
             font-size: 50px;
             color: darkred;
             text-align: center;                                       
     }
     .collage{
     position: relative;
-    width:800px;
-    height: 600px;
-    background-color: #5f0138;
+    width:600px;
+    height: 800px;
+    background-color: lightpink;
     border-radius: 10px;
     opacity: 0.9;
     }
     .imagen1{
         position: absolute;
         top: 0;
-        left: 0;
-        width: 200px;
-        height: 200px;
+        left: 200;
+        width: 300px;
+        height: 400px;
         z-index:1;
-        box-shadow:2px 2px 2px gray;
+        box-shadow:2px 2px 2px lightslategray;
     }
     
     .imagen2{
         position: absolute;
         top: 0;
-        left: 350px;
-        width: 200px;
+        left: 300px;
+        width: 3500px;
         height: 200px;
         z-index:2;
-        box-shadow:2px 2px 2px khaki;
+        box-shadow:2px 2px 2px darkgoldenrod;
     }
     
     .imagen3{
         position: absolute;
         top: 0;
-        left: 200px;
+        left: 400px;
         width: 200px;
-        height: 200px;
+        height: 250px;
         z-index:3;
-        box-shadow:2px 2px 2px aquamarine;
+        box-shadow:2px 2px 2px darkred;
     }
     
     .imagen4{
         position: absolute;
         top: 0;
-        left: 320px;
-        width: 200px;
+        left: 520px;
+        width: 300px;
         height: 200px;
         z-index:4;
-        box-shadow:2px 2px 2px darkgoldenrod;
+        box-shadow:2px 2px 2px darkgreen;
     }
     
     .imagen5{
         position: absolute;
         top: 0;
-        left: 250px;
+        left: 600px;
         width: 200px;
-        height: 200px;
+        height: 250px;
         z-index:5;
-        box-shadow:2px 2px 2px lightcoral;
+        box-shadow:2px 2px 2px darkblue;
     }
     
     .imagen6{
         position: absolute;
         top: 0;
-        left: 100px;
+        left: 600px;
         width: 200px;
-        height: 200px;
+        height: 250px;
         z-index:6;
         box-shadow:2px 2px 2px lightgreen;
     }
     .imagen7{
         position: absolute;
         top: 0;
-        left: 300px;
+        left: 700px;
         width: 200px;
         height: 200px;
         z-index:7;
-        box-shadow:2px 2px 2px lightseagreen;
+        box-shadow:2px 2px 2px gold;
+    }
+    .imagen8{
+        position: absolute;
+        top: 0;
+        left: 800px;
+        width: 200px;
+        height: 300px;
+        z-index:8;
+        box-shadow:2px 2px 2px greenyellow;
     }
